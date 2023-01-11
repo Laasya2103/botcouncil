@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
-  </category>
+  
+<category>
+    <pattern>Hey </pattern>
+    <template>Hi there !</template>
+</category>
+<category>
+    <pattern>I am not sure of taking what stream in 11</pattern>
+    <template>That's okay! We can figure it out</template>
+</category>
+<category>
+    <pattern>I want to take science but I am not sure of it</pattern>
+    <template>What are your hobbies?</template>
+</category>
+<category>
+    <pattern>I like music, dance and art and craft </pattern>
+    <template>Then why dont take arts?
+</template>
+</category>
+<category>
+    <pattern>I do not think that is a stable career </pattern>
+    <template>Well, you have several career options for each stream. Would you like to check out?
+</template>
+</category>
+
+<category>
+    <pattern>Sure</pattern>
+    <template>Edit bot response</template>
+</category>
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
 </aiml>
